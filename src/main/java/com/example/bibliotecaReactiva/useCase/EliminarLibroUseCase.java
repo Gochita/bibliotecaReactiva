@@ -11,12 +11,12 @@ import java.util.Objects;
 
 @Service
 @Validated
-public class BorrarLibroUseCase implements EliminarRecursoInterface {
+public class EliminarLibroUseCase implements EliminarRecursoInterface {
     private final RecursoRepository recursoRepository;
 
     @Autowired
 
-    public BorrarLibroUseCase(RecursoRepository recursoRepository) {
+    public EliminarLibroUseCase(RecursoRepository recursoRepository) {
         this.recursoRepository = recursoRepository;
     }
 
